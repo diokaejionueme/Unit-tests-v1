@@ -73,7 +73,7 @@ describe('functions', function() {
   })
 
   describe('buildCar', function() {
-    it('should return a car with a color', function() {
+    it.skip('should return a car with a color', function() {
       // setup for test (if necessary)
       var color = 'red'
       

@@ -12,7 +12,7 @@ function sayHello(name){
     }
 }
 
-function buildCar(){
+/* function buildCar(){
 
     for(var i = 0; i < arguments.length; i++){
     if(arguments.length === 1){
@@ -24,12 +24,12 @@ function buildCar(){
         return({});
     }
 }
-}
+} */
 
 
 
 module.exports = {
     addTwoNumbers,
     sayHello,
-    buildCar
+    //buildCar
 }
