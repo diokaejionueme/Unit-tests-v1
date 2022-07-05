@@ -10,4 +10,10 @@ already been written for you, and implement code to make them pass.
 Clone the repository: `git clone git@github.com:turingschool-examples/first-unit-tests.git`  
 CD into the directory: `cd first-unit-tests`  
 Install dependencies: `npm install`  
-Run the tests: `npm test`  
+Run the tests: `npm test` 
+
+
+# Questions:
+
+  -Can't figure out the BuildCar function. 
+   

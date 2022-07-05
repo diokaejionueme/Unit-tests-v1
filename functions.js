@@ -1,6 +1,6 @@
 // functions.js
 function addTwoNumbers(a, b) {
-    return a + b
+    return a + b;
 }
 
 function sayHello(name){
@@ -11,6 +11,26 @@ function sayHello(name){
         return(`No more testing ${name}!`);
     }
 }
+
+function buildCar(color, type){
+    let carProperties = {
+        carColor: color,
+        carType: type;
+    }
+
+    
+
+    if(carColor){
+        return (carColor);
+    }
+    else if(carColor, carType){
+        return (carType);
+    }else {
+        return({})
+    }
+}
+    
+
 
 /* function buildCar(){
 
@@ -28,8 +48,11 @@ function sayHello(name){
 
 
 
+
+
+
 module.exports = {
     addTwoNumbers,
     sayHello,
-    //buildCar
+    buildCar
 }
