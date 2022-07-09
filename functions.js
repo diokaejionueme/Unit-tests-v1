@@ -7,12 +7,28 @@ function sayHello(name){
     if(name !== 'Will')
     return(`Hi there ${name}!`);
     else{
-
         return(`No more testing ${name}!`);
     }
 }
 
+
 function buildCar(color, type){
+
+    if(color || type){
+        return {
+            color: color,
+            type: type
+        }
+    }
+    else{
+        return {};
+    }
+}
+        
+
+
+
+/* function buildCar(color, type){
     let carProperties = {
         carColor: color,
         carType: type;
@@ -28,7 +44,7 @@ function buildCar(color, type){
     }else {
         return({})
     }
-}
+} */
     
 
 
